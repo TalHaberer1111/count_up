@@ -18,20 +18,22 @@
 
       <div class="container">
         <form id="countUpInput">
-          <label>Count To Input</label>
-          <input type="number" class="countToInput" required>
-          <label>Count By Input</label>
-          <input type="number" class="countByInput" required>
+          <div class="form-group">
+            <label>Count To Input</label>
+            <input type="number" class="countToInput" required>
+            <label>Count By Input</label>
+            <input type="number" class="countByInput" required>
+          </div>
+
           <button type="submit" class="btn btn-default" id="submit">Press to Count</button>
         </form>
       </div>
-
     </div>  <!-- /CONTAINER -->
 
-    <div class="container" id="results">
-      <ul id="showResults">
 
-      </ul>
+    <div class="container" id="results">
+      <h2><span class ="countResults"></span></h2>
+
     </div>
   </body>
 </html>
